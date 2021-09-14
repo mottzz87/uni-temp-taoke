@@ -1,0 +1,247 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/home",
+			"style": {
+				"backgroundColorTop": "#ffffff",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "云淘荟买"
+			}
+		},
+		{
+			"path": "pages/index/activity",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "活动"
+			}
+		},
+		// {
+		// 	"path": "pages/index/shopping-cart",
+		// 	"style": {
+		// 		"disableScroll": true,
+		// 		"navigationBarTitleText": "购物车"
+		// 	}
+		// },
+		{
+			"path": "pages/index/my",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "我的"
+			}
+		}
+    ],
+	"subPackages": [
+		{
+			"root": "pages/wallet",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "我的钱包"
+					}
+				},
+				{
+					"path": "extract",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "余额提现"
+					}
+				},
+				{
+					"path": "record",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "提现记录"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/rich",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/invite",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff",
+						"navigationStyle":"custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/about",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "关于我们"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/help",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "帮助中心"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/chat",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "客服"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/h5",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/order",
+			"pages": [
+				{
+					"path": "lists",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "我的订单"
+					}
+				},
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D",
+						"navigationBarTitleText": "订单详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/goods",
+			"pages": [
+				{
+					"path": "history",
+					"style": {
+						"backgroundColorTop": "#ffffff",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff",
+						"navigationBarTitleText": "搜索"
+					}
+				},
+				{
+					"path": "search",
+					"style": {
+						"backgroundColorTop": "#ffffff",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff",
+						"navigationBarTitleText": "搜索"
+					}
+				},
+				{
+					"path": "lists",
+					"style": {
+						"navigationBarTextStyle": "#ffffff",
+						"navigationBarBackgroundColor": "#2B2E3D"
+					}
+				},
+				{
+					"path": "detail",
+					"style": {
+						// "navigationStyle":"custom",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff",
+						"navigationBarTitleText": "商品详情"
+					}
+				}
+			]
+		},{
+			"root": "pages/login",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"disableScroll": true,
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff",
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "云淘荟买",
+		"navigationBarBackgroundColor": "#2B2E3D",
+		"backgroundColor": "#f7f7f7"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2B2E3D",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/home",
+				"iconPath": "static/icon/tabbar/home.png",
+				"selectedIconPath": "static/icon/tabbar/home-hl.png"
+			},
+			{
+				"pagePath": "pages/index/activity",
+				"iconPath": "static/icon/tabbar/activity.png",
+				"selectedIconPath": "static/icon/tabbar/activity-hl.png"
+			},
+			// {
+			// 	"pagePath": "pages/index/shopping-cart",
+			// 	"iconPath": "static/icon/tabbar/shopping-cart.png",
+			// 	"selectedIconPath": "static/icon/tabbar/shopping-cart-hl.png"
+			// },
+			{
+				"pagePath": "pages/index/my",
+				"iconPath": "static/icon/tabbar/my.png",
+				"selectedIconPath": "static/icon/tabbar/my-hl.png"
+			}
+		]
+	}
+}
